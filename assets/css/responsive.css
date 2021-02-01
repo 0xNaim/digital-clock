@@ -1,0 +1,71 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .clock {
+    margin: 35px auto !important;
+  }
+  .clock-area {
+    display: inline;
+  }
+  .text {
+    text-align: center;
+  }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .clock {
+    margin: 35px auto !important;
+  }
+  .clock-area {
+    display: inline;
+  }
+  .text {
+    text-align: center;
+  }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .clock {
+    margin: 35px auto !important;
+  }
+  .clock-area {
+    display: inline;
+  }
+  .text {
+    text-align: center;
+  }
+  .clock span {
+    font-size: 80px;
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .clock {
+    margin: 35px auto !important;
+    margin-top: 50% !important;
+  }
+  .clock-area {
+    display: inline;
+  }
+  .text {
+    text-align: center;
+    margin-top: 50px !important;
+  }
+  .text h1 {
+    font-size: 50px;
+  }
+  .clock span {
+    font-size: 50px;
+    margin-left: 20px;
+  }
+  .clock span.divider {
+    margin: 0;
+  }
+  .clock #minutes,
+  #seconds,
+  #am-pm {
+    margin-left: 0;
+  }
+}
